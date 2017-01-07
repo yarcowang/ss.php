@@ -1,0 +1,27 @@
+{
+    "name": "yarco/ss",
+    "description": "simple service description in json",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yarco",
+            "email": "yarco.wang@gmail.com",
+            "role": "Core"
+        }
+    ],
+    "keywords": [
+        "web service"
+    ],
+    "autoload": {
+        "psr-4": {
+          "Yarco\\SimpleService\\" : "src"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}

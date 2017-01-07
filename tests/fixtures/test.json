@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "baseUrl": "https://demo/",
+  "roles": ["guest", "admin", "editor"],
+
+  "apis": {
+    "api/user/1": {
+      "get": [
+        "*"
+      ],
+      "post": [
+        "admin",
+        "editor"
+      ]
+    },
+    "api/admin/1": {
+      "get": [
+        "admin"
+      ],
+      "post": [
+        "admin"
+      ]
+    }
+  }
+}
